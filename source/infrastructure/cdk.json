@@ -1,0 +1,9 @@
+{
+  "app": "npx ts-node --prefer-ts-exts bin/iot-device-simulator.ts",
+  "context": {
+    "@aws-cdk/core:newStyleStackSynthesis": false,
+    "@aws-cdk/aws-lambda:recognizeVersionProps":false,
+    "@aws-cdk/aws-cloudfront:defaultSecurityPolicyTLSv1.2_2021": false,
+    "constructs:stackRelativeExports": false
+  }
+}
